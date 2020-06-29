@@ -47,7 +47,7 @@ spec:
       - image: gaurav0417/http-server
         name: httpd
         ports:
-        - containerPort: 8080
+        - containerPort: 80
           name: httpd
         volumeMounts:
         - name: httpd-storage
